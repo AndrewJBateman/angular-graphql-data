@@ -6,4 +6,4 @@ Fully working native desktop app produced using Angular front-end framework and 
 
 link to [Gary Simon tutorial DesignCourse Youtube video:](https://www.youtube.com/watch?v=Ea2lWsumTrM)
 
-link to [Maxime GRIS boilerplate code] used in this app. (https://github.com/maximegris/angular-electron)
+link to [Maxime GRIS boilerplate code used in this app:](https://github.com/maximegris/angular-electron)
