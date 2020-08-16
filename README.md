@@ -24,6 +24,7 @@
 * [Maxime GRIS boilerplate code used in this app](https://github.com/maximegris/angular-electron) used to save time creating this desktop app that uses Angular 10 and Electron 9 (Typescript + SASS + Hot Reload).
 * The application code is managed by `main.ts`.
 * You can disable "Developer Tools" by commenting `win.webContents.openDevTools();` in `main.ts`.
+* rxjs switchMap used to subscribe to http observable. On each emission the previous inner observable is cancelled and the new observable is subscribed: 'switch to a new observable'.
 
 ## :camera: Screenshots
 
@@ -46,7 +47,7 @@
 * Run `npm run build:prod` to Build the app with Angular aot. Your built files are in the /dist folder.
 * Run `npm run electron:local`to build your application and start electron.
 * Run `npm run electron:build` to build your application and create an app consumable based on your operating system.
-* Run `npm run e2e`TO Execute end to end tests
+* Run `npm run e2e` to execute end to end tests
 
 ## :computer: Code Examples
 
@@ -61,7 +62,7 @@
         this.http.get(
           "https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=" +
             name +
-            "&key=KEY"
+            "&key=API_KEY"
         )
       ),
       map((res) => res)
@@ -80,13 +81,14 @@
 ## :clipboard: Status & To-Do List
 
 * Status: in work
-* To-Do: add dotenv, create build file and complete.
+* To-Do: create build file and complete.
 
 ## :clap: Inspiration
 
 * [Gary Simon tutorial DesignCourse Youtube video](https://www.youtube.com/watch?v=Ea2lWsumTrM)
 * [Maxime GRIS boilerplate code used in this app](https://github.com/maximegris/angular-electron)
 * [Youtube Data API Reference](https://developers.google.com/youtube/v3/docs)
+* [Last-Call: How To Get a YouTube API Key (in 7 Simple Steps)](https://rapidapi.com/blog/how-to-get-youtube-api-key/)
 
 ## :envelope: Contact
 
