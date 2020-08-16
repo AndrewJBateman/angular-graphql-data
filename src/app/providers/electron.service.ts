@@ -6,6 +6,7 @@ import { ipcRenderer, webFrame, remote, BrowserWindow } from 'electron';
 import * as childProcess from 'child_process';
 import * as fs from 'fs';
 
+// eslint-disable-next-line @angular-eslint/use-injectable-provided-in
 @Injectable()
 export class ElectronService {
 
@@ -29,6 +30,7 @@ export class ElectronService {
     }
   }
 
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   isElectron = () => {
     return window && window.process && window.process.type;
   }
