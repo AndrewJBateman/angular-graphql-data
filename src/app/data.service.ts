@@ -13,7 +13,6 @@ export class DataService {
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   getStats(name: string) {
     const apiKey = ""
-    console.log("API KEY: ", apiKey);
     // check for updates every 50 seconds, start with 0
     return interval(50000).pipe(
       startWith(0),

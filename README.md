@@ -1,6 +1,6 @@
 # :zap: Angular Data Charts
 
-* Fully working native desktop app produced using Angular front-end framework and Electron. Uses Youtube API data to show subscribers to a Youtube channel, based on a Youtube channel id.
+* Native desktop app produced using Angular front-end framework and Electron. Uses Youtube API data to show subscribers to a Youtube channel, based on a Youtube channel id.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -21,7 +21,7 @@
 
 ## :books: General info
 
-* [Maxime GRIS boilerplate code used in this app](https://github.com/maximegris/angular-electron) used to save time creating this desktop app that uses Angular 10 and Electron 9 (Typescript + SASS + Hot Reload).
+* [Maxime GRIS boilerplate code used in this app](https://github.com/maximegris/angular-electron) used to save time creating this desktop app that uses Angular 11 and Electron 10 (Typescript + SASS + Hot Reload).
 * The application code is managed by `main.ts`.
 * You can disable "Developer Tools" by commenting `win.webContents.openDevTools();` in `main.ts`.
 * rxjs switchMap used to subscribe to http observable. On each emission the previous inner observable is cancelled and the new observable is subscribed: 'switch to a new observable'.
@@ -32,8 +32,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v10](https://angular.io/)
-* [Electron v9](https://www.electronjs.org/) cross-platform desktop apps with JavaScript, HTML, and CSS
+* [Angular v11](https://angular.io/)
+* [Electron v10](https://www.electronjs.org/) cross-platform desktop apps with JavaScript, HTML, and CSS
 * [Electron Builder v22](https://www.electron.build/) to package and build a ready for distribution Electron app for macOS, Windows and Linux with “auto update” support out of the box.
 * [Node v12](https://nodejs.org/en/) required by Angular 10.x CLI
 
@@ -77,10 +77,11 @@
 * Run your app in a local development environment with Electron & Hot reload (rendering process only, not electron process)
 * Run your app in a production environment
 * Package your app into an executable file for Linux, Windows & Mac
+* Updated to the latest Angular 11 and all dependencies updated nov. 2020
 
 ## :clipboard: Status & To-Do List
 
-* Status: in work
+* Status: working
 * To-Do: create build file and complete.
 
 ## :clap: Inspiration
