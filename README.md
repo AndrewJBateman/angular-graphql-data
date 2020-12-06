@@ -1,4 +1,4 @@
-# :zap: Angular Data Charts
+# :zap: Angular Electron API
 
 * Native desktop app produced using Angular front-end framework and Electron. Uses Youtube API data to show subscribers to a Youtube channel, based on a Youtube channel id.
 
@@ -72,7 +72,7 @@
 
 ## :cool: Features
 
-### With [Maxime GRIS boilerplate code used in this app](https://github.com/maximegris/angular-electron) used it is possible to
+With [Maxime GRIS boilerplate code used in this app](https://github.com/maximegris/angular-electron) used it is possible to
 
 * Run your app in a local development environment with Electron & Hot reload (rendering process only, not electron process)
 * Run your app in a production environment
