@@ -1,96 +1,27 @@
-# :zap: Angular Electron API
+# AngularGraphqlData
 
-* Native desktop app produced using Angular front-end framework and Electron. Uses Youtube API data to show subscribers to a Youtube channel, based on a Youtube channel id.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+## Development server
 
-## :page_facing_up: Table of contents
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-* [:zap: Angular Data Charts](#zap-angular-data-charts)
-  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
-  * [:books: General info](#books-general-info)
-  * [:camera: Screenshots](#camera-screenshots)
-  * [:signal_strength: Technologies](#signal_strength-technologies)
-  * [:floppy_disk: Setup](#floppy_disk-setup)
-  * [:computer: Code Examples](#computer-code-examples)
-  * [:cool: Features](#cool-features)
-    * [With Maxime GRIS boilerplate code used in this app used it is possible to](#with-maxime-gris-boilerplate-code-used-in-this-app-used-it-is-possible-to)
-  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
-  * [:clap: Inspiration](#clap-inspiration)
-  * [:envelope: Contact](#envelope-contact)
+## Code scaffolding
 
-## :books: General info
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-* [Maxime GRIS boilerplate code used in this app](https://github.com/maximegris/angular-electron) used to save time creating this desktop app that uses Angular 11 and Electron 10 (Typescript + SASS + Hot Reload).
-* The application code is managed by `main.ts`.
-* You can disable "Developer Tools" by commenting `win.webContents.openDevTools();` in `main.ts`.
-* rxjs switchMap used to subscribe to http observable. On each emission the previous inner observable is cancelled and the new observable is subscribed: 'switch to a new observable'.
+## Build
 
-## :camera: Screenshots
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-![Example screenshot](./img/youtube.png)
+## Running unit tests
 
-## :signal_strength: Technologies
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-* [Angular v11](https://angular.io/)
-* [Electron v10](https://www.electronjs.org/) cross-platform desktop apps with JavaScript, HTML, and CSS
-* [Electron Builder v22](https://www.electron.build/) to package and build a ready for distribution Electron app for macOS, Windows and Linux with “auto update” support out of the box.
-* [Node v12](https://nodejs.org/en/) required by Angular 10.x CLI
+## Running end-to-end tests
 
-## :floppy_disk: Setup
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-* Install dependencies by running `npm i`
-* Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files
-* Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build
-* Run`npm run ng:serve` to Execute the app in the browser
-* Run `npm run build` to Build the app. Your built files are in the /dist folder.
-* Run `npm run build:prod` to Build the app with Angular aot. Your built files are in the /dist folder.
-* Run `npm run electron:local`to build your application and start electron.
-* Run `npm run electron:build` to build your application and create an app consumable based on your operating system.
-* Run `npm run e2e` to execute end to end tests
+## Further help
 
-## :computer: Code Examples
-
-* extract from `data.service` to get Youtube data based on Youtube client ID (publically available).
-
-```typescript
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-  getStats(name: string) {
-    return interval(5000).pipe(
-      startWith(0),
-      switchMap(() =>
-        this.http.get(
-          "https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&id=" +
-            name +
-            "&key=API_KEY"
-        )
-      ),
-      map((res) => res)
-    );
-  }
-```
-
-## :cool: Features
-
-With [Maxime GRIS boilerplate code used in this app](https://github.com/maximegris/angular-electron) used it is possible to
-
-* Run your app in a local development environment with Electron & Hot reload (rendering process only, not electron process)
-* Run your app in a production environment
-* Package your app into an executable file for Linux, Windows & Mac
-* Updated to the latest Angular 11 and all dependencies updated nov. 2020
-
-## :clipboard: Status & To-Do List
-
-* Status: working
-* To-Do: create build file and complete.
-
-## :clap: Inspiration
-
-* [Gary Simon tutorial DesignCourse Youtube video](https://www.youtube.com/watch?v=Ea2lWsumTrM)
-* [Maxime GRIS boilerplate code used in this app](https://github.com/maximegris/angular-electron)
-* [Youtube Data API Reference](https://developers.google.com/youtube/v3/docs)
-* [Last-Call: How To Get a YouTube API Key (in 7 Simple Steps)](https://rapidapi.com/blog/how-to-get-youtube-api-key/)
-
-## :envelope: Contact
-
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
