@@ -2,6 +2,7 @@
 
 * Angular app to display data from Rick and Morty API using GraphQL with Apollo.
 * Server Side Rendering (SSR) added.
+Deployed to Netlify with a good (green) Lighthouse score.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-graphql-data?style=plastic)
@@ -29,7 +30,7 @@
 
 ## :camera: Screenshots
 
-![Frontend screenshot](./img/list.png)
+![Frontend screenshot](./imgs/list.png)
 
 ## :signal_strength: Technologies
 
