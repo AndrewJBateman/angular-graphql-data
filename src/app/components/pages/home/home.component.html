@@ -1,3 +1,11 @@
+<head>
+  <meta
+    name="description"
+    content="Home page shows favourite Rick & Morty cards"
+  />
+  <meta name="theme-color" content="#101164" />
+</head>
+
 <section class="character__list">
   <app-characters-card
     *ngFor="let character of charactersFav$ | async"

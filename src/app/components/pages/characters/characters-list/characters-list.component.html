@@ -1,4 +1,11 @@
-<!-- <app-search></app-search> -->
+<head>
+  <meta
+    name="description"
+    content="Characters list page shows complete list of Rick & Morty characters"
+  />
+  <meta name="theme-color" content="#101164" />
+</head>
+
 <section class="character__list" infiniteScroll (scrolled)="onScrollDown()">
   <ng-container *ngIf="characters$ | async as characters; else showEmpty">
     <app-characters-card
