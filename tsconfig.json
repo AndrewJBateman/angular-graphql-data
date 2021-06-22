@@ -6,8 +6,8 @@
       "@app/*": ["src/app/*"],
       "@shared/*": ["src/app/shared/*"],
       "@characters/*": ["src/app/components/pages/characters/*"],
-      "@pages/*": ["src/app/components/pages*"],
-      "@environments/*": ["src/environments/*"]
+      "@pages/*": ["src/app/components/pages/*"],
+      "@environment/*": ["src/environments/*"]
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
