@@ -1,6 +1,7 @@
 # :zap: Angular GraphQL Data
 
 * Angular app to display data from Rick and Morty API using GraphQL with Apollo.
+* Server Side Rendering (SSR) added.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-graphql-data?style=plastic)
@@ -96,9 +97,9 @@
 
 ## :clipboard: Status, Testing & To-Do List
 
-* Status: Working.
+* Status: Working with SSR
 * Testing: tba
-* To-Do: add SSR
+* To-Do: deploy
 
 ## :clap: Inspiration/General Tools
 
@@ -109,7 +110,7 @@
 * [Efecto de carga en Angular spinner, loading - Curso práctico Angular 11 #5](https://www.youtube.com/watch?v=uQprcZ0FYMw)
 * [Recuperamos details - Aplicación Ricky and morty API - Angular 11](https://www.youtube.com/watch?v=70jrlNJ3YsM)
 * [¿Qué es angular universal? - Server Side Rendering (SSR) con Angular Universal](https://www.youtube.com/watch?v=2eksE5hlbmQ)
-
+* [Primeros pasos con netlify y angular SSR](https://www.youtube.com/watch?v=Zshv21H1M2A)
 * [THIRUVANANTHAPURAM: How to add eslint to angular 12 project](https://www.youtube.com/watch?v=Km7RuJEfE0c)
 * [Stackoverflow: argument-of-type-null-is-not-assignable-to-parameter-angular](https://stackoverflow.com/questions/67025848/argument-of-type-null-is-not-assignable-to-parameter-angular)
 
