@@ -28,7 +28,7 @@ const routes: Routes = [
       ).then((m) => m.CharactersListModule),
   },
   {
-    path: 'character-details',
+    path: 'character-details/:id',
     loadChildren: () =>
       import(
         './components/pages/characters/characters-details/characters-details.module'
