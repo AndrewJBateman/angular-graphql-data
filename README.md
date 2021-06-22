@@ -25,10 +25,11 @@
 * GraphQL, a query language for APIs.
 * Angular [HttpInterceptor](https://angular.io/api/common/http/HttpInterceptor) used to intercept a Http request and show a spinner
 * styling done using SCSS instead of Angular Material, Bootstrap, Tailwind etc.
+* Dummy robots.txt file added to fool lighthouse test for Search Engine Optimization (SEO)
 
 ## :camera: Screenshots
 
-![Frontend screenshot](./img/home.png)
+![Frontend screenshot](./img/list.png)
 
 ## :signal_strength: Technologies
 
@@ -97,9 +98,9 @@
 
 ## :clipboard: Status, Testing & To-Do List
 
-* Status: Working with SSR
+* Status: Working with SSR. [Deployed to Netlify](https://naughty-turing-cf7a1b.netlify.app/character-list)
 * Testing: tba
-* To-Do: deploy
+* To-Do: turn strict back on and sort type errors. Improve Lighthouse score. Add PWA?
 
 ## :clap: Inspiration/General Tools
 
