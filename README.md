@@ -2,7 +2,7 @@
 
 * Angular app to display data from Rick and Morty API using GraphQL with Apollo.
 * Server Side Rendering (SSR) added.
-Deployed to Netlify with a good (green) Lighthouse score.
+* Deployed to Netlify with a good (green) Lighthouse score.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-graphql-data?style=plastic)
@@ -12,20 +12,23 @@ Deployed to Netlify with a good (green) Lighthouse score.
 
 ## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
-
+* [Angular GraphQL Data](#angular-graphql-data)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
+  * [:envelope: Contact](#envelope-contact)
 ## :books: General info
 
 * GraphQL, a query language for APIs.
-* Angular [HttpInterceptor](https://angular.io/api/common/http/HttpInterceptor) used to intercept a Http request and show a spinner
-* styling done using SCSS instead of Angular Material, Bootstrap, Tailwind etc.
+* Angular [HttpInterceptor](https://angular.io/api/common/http/HttpInterceptor) used to intercept a HTTP request and show a spinner
+* Styling done using SCSS instead of Angular Material, Bootstrap, Tailwind etc.
 * Dummy robots.txt file added to fool lighthouse test for Search Engine Optimization (SEO)
 
 ## :camera: Screenshots
@@ -100,7 +103,7 @@ Deployed to Netlify with a good (green) Lighthouse score.
 ## :clipboard: Status, Testing & To-Do List
 
 * Status: Working with SSR. [Deployed to Netlify](https://naughty-turing-cf7a1b.netlify.app/character-list)
-* Testing: tba
+* Testing: n/a
 * To-Do: turn strict back on and sort type errors. Improve Lighthouse score. Add PWA?
 
 ## :clap: Inspiration/General Tools
