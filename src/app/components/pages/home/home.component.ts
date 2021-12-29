@@ -1,16 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { LocalStorageService } from '@shared/services/localStorage.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
   charactersFav$ = this.localStorageSvc.charactersFav$;
-  constructor(private localStorageSvc: LocalStorageService) { }
-
-  ngOnInit(): void {
-  }
-
+  constructor(private localStorageSvc: LocalStorageService) {}
 }
