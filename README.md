@@ -37,9 +37,9 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v12](https://angular.io/)
-* [Angular Universal v12](https://angular.io/guide/universal) Server-Side Rendering(SSR) by a Node Express web server
-* [Angular Express Engine v12](https://www.npmjs.com/package/@nguniversal/express-engine) for running Angular Apps on the server for server side rendering
+* [Angular framework v13](https://angular.io/)
+* [Angular Universal v13](https://angular.io/guide/universal) Server-Side Rendering(SSR) by a Node Express web server
+* [Angular Express Engine v13](https://www.npmjs.com/package/@nguniversal/express-engine) for running Angular Apps on the server for server side rendering
 * [SCSS/SASS](https://sass-lang.com/) CSS extension language
 * [Apollo Angular v2](https://apollo-angular.com/docs/)
 * [ngx-toastr v14](https://www.npmjs.com/package/ngx-toastr) for popup user messages
@@ -50,7 +50,6 @@
 ## :floppy_disk: Setup
 
 * Install dependencies using `npm i`
-* Run `npm outdated` to see if any npm dependencies are outdated.
 * Run `ng serve` for a non-SSR dev server. Frontend will open at `http://localhost:4200/` - refreshes on code changes
 * Run `npm run dev:ssr` for an SSR dev server. Frontend will open at `http://localhost:4200/` - refreshes on code changes
 * Run `npm run lint` to lint test entire codebase using ESLint.
