@@ -12,18 +12,20 @@
 
 ## :page_facing_up: Table of contents
 
-* [Angular GraphQL Data](#angular-graphql-data)
+* [:zap: Angular GraphQL Data](#zap-angular-graphql-data)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
   * [:signal_strength: Technologies](#signal_strength-technologies)
   * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:wrench: Testing](#wrench-testing)
   * [:computer: Code Examples](#computer-code-examples)
-  * [:cool: Features](#cool-features)
-  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
-  * [:clap: Inspiration](#clap-inspiration)
+  * [:cool: Features - Frontend](#cool-features---frontend)
+  * [:clipboard: Status, Testing & To-Do List](#clipboard-status-testing--to-do-list)
+  * [:clap: Inspiration/General Tools](#clap-inspirationgeneral-tools)
   * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
+
 ## :books: General info
 
 * GraphQL, a query language for APIs.
@@ -37,13 +39,13 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v13](https://angular.io/)
-* [Angular Universal v13](https://angular.io/guide/universal) Server-Side Rendering(SSR) by a Node Express web server
-* [Angular Express Engine v13](https://www.npmjs.com/package/@nguniversal/express-engine) for running Angular Apps on the server for server side rendering
+* [Angular framework v14](https://angular.io/)
+* [Angular Universal v14](https://angular.io/guide/universal) Server-Side Rendering(SSR) by a Node Express web server
+* [Angular Express Engine v14](https://www.npmjs.com/package/@nguniversal/express-engine) for running Angular Apps on the server for server side rendering
 * [SCSS/SASS](https://sass-lang.com/) CSS extension language
-* [Apollo Angular v2](https://apollo-angular.com/docs/)
+* [Apollo Angular v3](https://apollo-angular.com/docs/)
 * [ngx-toastr v14](https://www.npmjs.com/package/ngx-toastr) for popup user messages
-* [ngx-infinite scroll v10](https://www.npmjs.com/package/ngx-infinite-scroll)
+* [ngx-infinite scroll v13](https://www.npmjs.com/package/ngx-infinite-scroll)
 * [Google Chrome Lighthouse](https://developers.google.com/web/tools/lighthouse) to check quality of website
 * [Source of emojis](https://emojipedia.org/)
 
