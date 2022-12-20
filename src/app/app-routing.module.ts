@@ -10,14 +10,12 @@ const routes: Routes = [
   {
     path: 'home',
     loadChildren: () =>
-      import('./components/pages/home/home.module').then((m) => m.HomeModule),
+      import('./components/pages/home/home.module'),
   },
   {
     path: 'episodes',
     loadChildren: () =>
-      import('./components/pages/episodes/episodes.module').then(
-        (m) => m.EpisodesModule
-      ),
+      import('./components/pages/episodes/episodes.module'),
   },
 
   {
@@ -25,28 +23,24 @@ const routes: Routes = [
     loadChildren: () =>
       import(
         './components/pages/characters/characters-list/characters-list.module'
-      ).then((m) => m.CharactersListModule),
+      ),
   },
   {
     path: 'character-details/:id',
     loadChildren: () =>
       import(
         './components/pages/characters/characters-details/characters-details.module'
-      ).then((m) => m.CharactersDetailsModule),
+      ),
   },
   {
     path: 'about',
     loadChildren: () =>
-      import('./components/pages/about/about.module').then(
-        (m) => m.AboutModule
-      ),
+      import('./components/pages/about/about.module'),
   },
   {
     path: '**',
     loadChildren: () =>
-      import('./components/pages/notFound/not-found.module').then(
-        (m) => m.NotFoundModule
-      ),
+      import('./components/pages/notFound/not-found.module'),
   },
 ];
 
@@ -54,4 +48,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes, { enableTracing: true })],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

@@ -14,4 +14,4 @@ import { CharactersDetailsComponent } from './characters-details.component';
     CharactersCardModule
   ]
 })
-export class CharactersDetailsModule { }
+export default class CharactersDetailsModule { }

@@ -14,4 +14,4 @@ import { EpisodesComponent } from './episodes.component';
     EpisodesRoutingModule
   ]
 })
-export class EpisodesModule { }
+export default class EpisodesModule { }

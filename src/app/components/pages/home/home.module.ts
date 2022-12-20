@@ -15,4 +15,4 @@ import { CharactersCardModule } from '@characters/characters-card/characters-car
     CharactersCardModule
   ]
 })
-export class HomeModule { }
+export default class HomeModule { }

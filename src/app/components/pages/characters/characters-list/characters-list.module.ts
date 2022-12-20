@@ -18,4 +18,4 @@ import { InfiniteScrollModule } from "ngx-infinite-scroll";
     InfiniteScrollModule
   ]
 })
-export class CharactersListModule { }
+export default class CharactersListModule { }
