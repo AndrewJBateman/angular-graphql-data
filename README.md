@@ -39,13 +39,13 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v14](https://angular.io/)
-* [Angular Universal v14](https://angular.io/guide/universal) Server-Side Rendering(SSR) by a Node Express web server
-* [Angular Express Engine v14](https://www.npmjs.com/package/@nguniversal/express-engine) for running Angular Apps on the server for server side rendering
+* [Angular framework v15](https://angular.io/)
+* [Angular Universal v15](https://angular.io/guide/universal) Server-Side Rendering(SSR) by a Node Express web server
+* [Angular Express Engine v15](https://www.npmjs.com/package/@nguniversal/express-engine) for running Angular Apps on the server for server side rendering
 * [SCSS/SASS](https://sass-lang.com/) CSS extension language
 * [Apollo Angular v3](https://apollo-angular.com/docs/)
-* [ngx-toastr v14](https://www.npmjs.com/package/ngx-toastr) for popup user messages
-* [ngx-infinite scroll v13](https://www.npmjs.com/package/ngx-infinite-scroll)
+* [ngx-toastr v16](https://www.npmjs.com/package/ngx-toastr) for popup user messages
+* [ngx-infinite scroll v15](https://www.npmjs.com/package/ngx-infinite-scroll)
 * [Google Chrome Lighthouse](https://developers.google.com/web/tools/lighthouse) to check quality of website
 * [Source of emojis](https://emojipedia.org/)
 
