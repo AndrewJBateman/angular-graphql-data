@@ -13,17 +13,17 @@
 ## :page_facing_up: Table of contents
 
 * [:zap: Angular GraphQL Data](#zap-angular-graphql-data)
-  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:page\_facing\_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
-  * [:signal_strength: Technologies](#signal_strength-technologies)
-  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:signal\_strength: Technologies](#signal_strength-technologies)
+  * [:floppy\_disk: Setup](#floppy_disk-setup)
   * [:wrench: Testing](#wrench-testing)
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features - Frontend](#cool-features---frontend)
-  * [:clipboard: Status, Testing & To-Do List](#clipboard-status-testing--to-do-list)
+  * [:clipboard: Status, Testing \& To-Do List](#clipboard-status-testing--to-do-list)
   * [:clap: Inspiration/General Tools](#clap-inspirationgeneral-tools)
-  * [:file_folder: License](#file_folder-license)
+  * [:file\_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -39,13 +39,13 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v15](https://angular.io/)
-* [Angular Universal v15](https://angular.io/guide/universal) Server-Side Rendering(SSR) by a Node Express web server
-* [Angular Express Engine v15](https://www.npmjs.com/package/@nguniversal/express-engine) for running Angular Apps on the server for server side rendering
+* [Angular framework v16](https://angular.io/)
+* [Angular Universal v16](https://angular.io/guide/universal) Server-Side Rendering(SSR) by a Node Express web server
+* [Angular Express Engine v16](https://www.npmjs.com/package/@nguniversal/express-engine) for running Angular Apps on the server for server side rendering
 * [SCSS/SASS](https://sass-lang.com/) CSS extension language
 * [Apollo Angular v3](https://apollo-angular.com/docs/)
 * [ngx-toastr v16](https://www.npmjs.com/package/ngx-toastr) for popup user messages
-* [ngx-infinite scroll v15](https://www.npmjs.com/package/ngx-infinite-scroll)
+* [ngx-infinite scroll v16](https://www.npmjs.com/package/ngx-infinite-scroll)
 * [Google Chrome Lighthouse](https://developers.google.com/web/tools/lighthouse) to check quality of website
 * [Source of emojis](https://emojipedia.org/)
 
@@ -105,7 +105,7 @@
 
 * Status: Working with SSR. [Deployed to Netlify](https://naughty-turing-cf7a1b.netlify.app/character-list)
 * Testing: n/a
-* To-Do: turn strict back on and sort type errors. Improve Lighthouse score. Add PWA?
+* To-Do: turn strict back on and sort type errors. Improve Lighthouse score.
 
 ## :clap: Inspiration/General Tools
 
@@ -126,4 +126,4 @@
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: `gomezbateman@yahoo.com`
